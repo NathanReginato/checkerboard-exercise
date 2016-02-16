@@ -14,5 +14,5 @@ for (var i = 0; i < 99; i++) {
   div.style.float="right";
   div.style.paddingBottom="11.1%";
   div.style.width="11.1%";
-  div.style.backgroundColor=getRandomColor();
+  div.style.background="linear-gradient(" + getRandomColor() + ", " + getRandomColor() + ")";
 };
